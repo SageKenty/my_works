@@ -25,7 +25,7 @@ npm run dev
 ### シューティングゲーム
 
 大学の授業の課題で制作したシューティングゲームです。Processingで制作しています。私がすべて制作しました。
-詳細についてはshootingディレクトリのshooting.pdfを参照してください。
+詳細についてはreferenceディレクトリのshooting.pdfを参照してください。
 
 #### 概要
 
