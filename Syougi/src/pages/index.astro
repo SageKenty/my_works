@@ -1,0 +1,27 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Vue_js from '../components/games/Three_js_game/Three_js_game.vue';
+---
+
+<Layout title="GAME">
+	<main>
+		
+		<h2>ゲーム画面</h2>
+		<p>Aキー:オセロ Bキー:神経衰弱 Cキー:将棋</p>
+		<Vue_js client:only="vue" />
+		<p>
+		ソースコード: /src/components/games/Vue_js_proto.vue<br>
+		画像、その他素材: /assets/games/Vue_js_proto 以下<br>
+		</p>
+
+	</main>
+</Layout>
+
+<style>
+	main {
+		margin: auto;
+		color: rgb(0, 0, 0);
+		font-size: 20px;
+	}
+</style>
+../components/games/vue_ts_proto/_Vue_ts_proto.vue../components/games/vue_ts_proto/Vue_ts_proto.vue1
